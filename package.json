@@ -3,11 +3,28 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.1.2",
+    "@fortawesome/pro-light-svg-icons": "^6.1.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@popperjs/core": "^2.11.5",
     "axios": "^0.27.2",
-    "bootstrap": "^5.2.0"
+    "bootstrap": "^5.2.0",
+    "i18next": "^21.9.1",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-i18next": "^11.18.4"
   },
   "devDependencies": {
-    "@symfony/webpack-encore": "^3.0.0"
+    "@babel/core": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "@symfony/webpack-encore": "^3.0.0",
+    "autoprefixer": "^9",
+    "core-js": "^3.24.1",
+    "postcss": "^7.0.0",
+    "postcss-loader": "^7.0.0",
+    "sass": "^1.54.4",
+    "sass-loader": "^13.0.0"
   },
   "scripts": {
     "dev-server": "encore dev-server --port 8080",

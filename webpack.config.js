@@ -19,6 +19,8 @@ Encore
     // will require an extra script tag for runtime.js
     .enableSingleRuntimeChunk()
 
+    .enableReactPreset()
+
     /*
      * FEATURE CONFIG
      *

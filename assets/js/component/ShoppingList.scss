@@ -1,0 +1,22 @@
+.card-wrapper {
+    margin: 2em auto;
+    max-width: 30em;
+    box-shadow: 2px 4px 6px 0 rgba(0,0,0,.16);
+    background-color: white;
+}
+
+.card {
+    padding: 1em;
+}
+
+
+@media (max-width: 768px) {
+    .card-wrapper {
+        margin: 1em auto;
+    }
+
+    .card {
+        padding: 0.5em;
+    }
+
+}

@@ -7,3 +7,11 @@
 
 // any CSS you import will output into a single css file (app.css in this case)
 import '../css/app.scss';
+import ReactDOM from "react-dom/client";
+import React from "react";
+import "./services/translation.js"
+import "./services/icon.js"
+import ShoppingList from "./component/ShoppingList";
+
+const root = ReactDOM.createRoot(document.getElementById('app'));
+root.render(<ShoppingList />);

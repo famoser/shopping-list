@@ -1,5 +1,6 @@
 {
   "products": {
+    "search": "Search",
     "no_products": "No products yet.",
     "shopping_successful": "No more products to buy! :)",
     "categories": {
