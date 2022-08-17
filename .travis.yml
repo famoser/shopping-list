@@ -24,7 +24,7 @@ before_install:
   - php --version
 
   # frontend
-  - nvm install v12 # set node version to 12
+  - nvm install v16
   - node --version
 
 install:
