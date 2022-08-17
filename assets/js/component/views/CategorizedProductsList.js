@@ -45,7 +45,7 @@ class CategorizedProductsList extends React.Component {
         return categoriesWithProducts.map((category) =>
             <div key={category}>
                 <h3 className={"mt-4"}>{this.translateCategory(category)}</h3>
-                <ProductsList products={this.productsOfCategory(category)} />
+                <ProductsList onProductChange={this.props.onProductChange} products={this.productsOfCategory(category)} />
             </div>
         );
     }

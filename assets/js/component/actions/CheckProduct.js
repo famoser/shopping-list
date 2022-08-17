@@ -5,7 +5,6 @@ export class CheckProduct extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            value: props.product.active,
             disabled: false
         }
         this.handleChange = this.handleChange.bind(this);
@@ -13,7 +12,8 @@ export class CheckProduct extends React.Component {
 
     handleChange(event) {
         let value = event.target.checked;
-        this.setState({value, disabled: true});
+        this.setState({disabled: true});
+        this.props.onProductChange(Object.assign({}, this.props.product, {active: value}))
         api.patch(this.props.product, {active: value}).then(() => {
             this.setState({disabled: false})
         })
@@ -22,7 +22,7 @@ export class CheckProduct extends React.Component {
     render() {
         return (
             <div className="form-check">
-                <input className="form-check-input" type="checkbox" disabled={this.state.disabled} checked={this.state.value} onChange={this.handleChange} id={this.props.product["@id"]} />
+                <input className="form-check-input" type="checkbox" disabled={this.state.disabled} checked={this.props.product.active} onChange={this.handleChange} id={this.props.product["@id"]} />
                 <label className="form-check-label" htmlFor={this.props.product["@id"]}>
                     {this.props.product.name}
                 </label>

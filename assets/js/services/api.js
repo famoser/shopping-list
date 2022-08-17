@@ -52,5 +52,8 @@ export const api = {
     },
     getProducts: function () {
         return this._getHydraCollection('/api/products')
-    }
+    },
+    postProduct: function (post) {
+        return this._post("/api/products", post)
+    },
 }

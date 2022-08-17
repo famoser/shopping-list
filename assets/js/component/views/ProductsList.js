@@ -9,7 +9,7 @@ export default class ProductsList extends React.Component {
 
     render() {
         const products = this.props.products.map((product) =>
-            <CheckProduct key={product["@id"]} product={product} />
+            <CheckProduct onProductChange={this.props.onProductChange} key={product["@id"]} product={product} />
         );
         return (
             <ul className={"product-list"}>{products}</ul>
