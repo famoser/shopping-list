@@ -1,0 +1,5 @@
+#!/bin/sh
+
+echo committing as $(git config user.name)
+./vendor/bin/php-cs-fixer fix
+git update-index --again

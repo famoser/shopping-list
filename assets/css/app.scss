@@ -1,0 +1,20 @@
+$grid-gutter-width: 10px;
+$border-radius: .10rem;
+$card-spacer-y: .25rem;
+$card-spacer-x: .5rem;
+
+$lg: 992px;
+$xl: 1800px;
+$grid-breakpoints: (
+        xs: 0,
+        sm: 576px,
+        md: 768px,
+        lg: $lg,
+        xl: $xl
+);
+
+@import "~bootstrap/scss/bootstrap.scss";
+
+html, body {
+  height: 100%;
+}

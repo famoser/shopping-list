@@ -1,0 +1,27 @@
+{
+  "products": {
+    "no_products": "No products yet.",
+    "shopping_successful": "No more products to buy! :)",
+    "categories": {
+      "fruit_vegetables": "Fruits & Vegetables",
+      "dairy_products_eggs": "Dairy Products & Eggs",
+      "bread_backed_goods": "Bread & Backed Goods",
+      "inventories": "Inventories",
+      "frozen_food_ready_made_meals": "Frozen Food & Ready Made Meals",
+      "drinks": "Drinks",
+      "household": "Household"
+    }
+  },
+  "entity": {
+    "product": {
+      "name": "Name",
+      "category": "Category"
+    }
+  },
+  "messages": {
+    "danger": {
+      "request_failed": "the server request failed",
+      "confirm_remove": "do you really want to remove this?"
+    }
+  }
+}
