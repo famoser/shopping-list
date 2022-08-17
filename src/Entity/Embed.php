@@ -1,10 +1,8 @@
 <?php
 
 /*
- * This file is part of the mangel.io project.
- *
+ * This file is part of the shopping-list project.
  * (c) Florian Moser <git@famoser.ch>
- *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
@@ -33,10 +31,10 @@ class Embed extends BaseEntity
     use IdTrait;
     use TimeTrait;
 
-    const TYPE_IMAGE = 1;
-    const TYPE_VIDEO = 2;
-    const TYPE_QUOTE = 3;
-    const TYPE_YOUTUBE = 4;
+    public const TYPE_IMAGE = 1;
+    public const TYPE_VIDEO = 2;
+    public const TYPE_QUOTE = 3;
+    public const TYPE_YOUTUBE = 4;
 
     /**
      * @var string

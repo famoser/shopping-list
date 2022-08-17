@@ -25,7 +25,7 @@ scripts:
   build:
     hook: build
     script:
-      - composer install --verbose --prefer-dist --no-interaction --no-dev --optimize-autoloader --no-scripts
+      - composer install --verbose --prefer-dist --no-interaction --no-dev --optimize-autoloader --no-scripts  --ignore-platform-reqs
       - yarn install
       - yarn run encore production
       - rm -rf node_modules
