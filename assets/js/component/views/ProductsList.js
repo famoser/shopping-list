@@ -8,7 +8,8 @@ export default class ProductsList extends React.Component {
     }
 
     render() {
-        const products = this.props.products.map((product) =>
+        const sortedProducts = this.props.products.sort((a,b) => a.name.localeCompare(b.name))
+        const products = sortedProducts.map((product) =>
             <CheckProduct onProductChange={this.props.onProductChange} key={product["@id"]} product={product} />
         );
         return (

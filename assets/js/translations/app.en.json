@@ -1,5 +1,6 @@
 {
   "products": {
+    "add": "Add product",
     "search": "Search",
     "no_products": "No products yet.",
     "shopping_successful": "No more products to buy! :)",
@@ -18,6 +19,10 @@
       "name": "Name",
       "category": "Category"
     }
+  },
+  "modal": {
+    "cancel": "Cancel",
+    "save": "Save"
   },
   "messages": {
     "danger": {
