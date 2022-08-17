@@ -1,7 +1,6 @@
 # Introduction
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE) 
-[![Build Status](https://app.travis-ci.com/famoser/shopping-list.svg?branch=master)](https://app.travis-ci.com/famoser/shopping-list.svg)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/famoser/shopping-list/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/famoser/shopping-list/?branch=master)
+[![Build Status](https://app.travis-ci.com/famoser/shopping-list.svg?branch=master)](https://app.travis-ci.com/github/famoser/shopping-list)
 
 ## About
 Shopping list helps flat mates to coordinate grocery shopping. And helped me to quickly pick up react.
