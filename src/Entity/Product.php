@@ -37,30 +37,32 @@ class Product extends BaseEntity
     public const CATEGORY_FROZEN_FOOD_READY_MADE_MEALS = 5;
     public const CATEGORY_DRINKS = 6;
     public const CATEGORY_HOUSEHOLD = 7;
+    public const CATEGORY_MEAT_FISH = 8;
+    public const CATEGORY_SNACKS = 9;
 
     /**
      * @var string
+     *
      * @Assert\NotBlank
      * @Groups("product")
-     *
      * @ORM\Column(type="text")
      */
     private $name;
 
     /**
      * @var int
-     * @Assert\Range(min=1, max=7)
-     * @Groups("product")
      *
+     * @Assert\Range(min=1, max=9)
+     * @Groups("product")
      * @ORM\Column(type="integer")
      */
     private $category;
 
     /**
      * @var bool
+     *
      * @Assert\NotNull()
      * @Groups("product")
-     *
      * @ORM\Column(type="boolean")
      */
     private $active;

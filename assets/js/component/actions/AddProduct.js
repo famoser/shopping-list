@@ -42,9 +42,11 @@ class AddProduct extends React.Component {
                 <select className="form-select mt-2" name="category" value={this.state.category} onChange={this.handleInputChange}>
                     <option value="1">{this.props.t('products.categories.fruit_vegetables')}</option>
                     <option value="2">{this.props.t('products.categories.dairy_products_eggs')}</option>
+                    <option value="8">{this.props.t('products.categories.meat_fish')}</option>
                     <option value="3">{this.props.t('products.categories.bread_backed_goods')}</option>
                     <option value="4">{this.props.t('products.categories.inventories')}</option>
                     <option value="5">{this.props.t('products.categories.frozen_food_ready_made_meals')}</option>
+                    <option value="9">{this.props.t('products.categories.snacks')}</option>
                     <option value="6">{this.props.t('products.categories.drinks')}</option>
                     <option value="7">{this.props.t('products.categories.household')}</option>
                 </select>
