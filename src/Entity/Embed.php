@@ -38,18 +38,18 @@ class Embed extends BaseEntity
 
     /**
      * @var string
+     *
      * @Assert\NotBlank
      * @Groups("embed")
-     *
      * @ORM\Column(type="text")
      */
     private $content;
 
     /**
      * @var int
+     *
      * @Assert\Range(min=1, max=4)
      * @Groups("embed")
-     *
      * @ORM\Column(type="integer")
      */
     private $type;

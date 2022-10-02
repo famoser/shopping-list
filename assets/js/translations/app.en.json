@@ -7,9 +7,11 @@
     "categories": {
       "fruit_vegetables": "Fruits & Vegetables",
       "dairy_products_eggs": "Dairy Products & Eggs",
+      "meat_fish": "Meat & Fish",
       "bread_backed_goods": "Bread & Backed Goods",
       "inventories": "Inventories",
       "frozen_food_ready_made_meals": "Frozen Food & Ready Made Meals",
+      "snacks": "Snacks",
       "drinks": "Drinks",
       "household": "Household"
     }
