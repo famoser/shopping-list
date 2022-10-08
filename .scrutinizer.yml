@@ -3,7 +3,8 @@ build:
   nodes:
     analysis:
       services:
-        - node: v16
+        - name: node
+          version: v16
       project_setup:
         override: true
       tests:
