@@ -1,7 +1,5 @@
 build:
   image: default-bionic
-
-build:
   nodes:
     analysis:
       services:
