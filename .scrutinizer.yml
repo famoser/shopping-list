@@ -2,9 +2,6 @@ build:
   image: default-bionic
   nodes:
     analysis:
-      services:
-        - name: node
-          version: v16
       project_setup:
         override: true
       tests:
