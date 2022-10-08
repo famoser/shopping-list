@@ -1,5 +1,7 @@
 build:
-  image: default-bionic
+  image: default-bionic    
+  environment:
+        node: v16
   nodes:
     analysis:
       project_setup:
