@@ -1,7 +1,10 @@
 build:
+  image: default-bionic
+
+build:
   nodes:
     analysis:
-      environment:
+      services:
         node: v16
       project_setup:
         override: true
