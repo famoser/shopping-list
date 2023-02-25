@@ -7,7 +7,7 @@
 
 ## About
 
-Shopping list helps flat mates to coordinate grocery shopping. And helped me to quickly pick up react.
+Shopping list helps flat mates to coordinate grocery shopping.
 
 <p align="center">
   <img src="assets/images/screenshot1.png?raw=true" alt="Screenshot">
@@ -22,5 +22,5 @@ Shopping list helps flat mates to coordinate grocery shopping. And helped me to 
 
 `famoser/agnes` is set up to release new versions & deploy them.
 
-- `./vendor/bin/agnes release v.1.0.0 master` to release to master (and deploy to dev)
-- `./vendor/bin/agnes deploy *:*:prod master` to deploy to production
+- `./vendor/bin/agnes release v1.0.0 main` to release from main (will automatically deploy to dev)
+- `./vendor/bin/agnes deploy *:*:prod v1.0.0` to deploy the release to production
