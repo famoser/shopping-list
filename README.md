@@ -1,6 +1,9 @@
 # Introduction
+
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE) 
-[![Build Status](https://app.travis-ci.com/famoser/shopping-list.svg?branch=master)](https://app.travis-ci.com/github/famoser/shopping-list)
+[![PHP Composer](https://github.com/famoser/shopping-list/actions/workflows/php.yml/badge.svg)](https://github.com/famoser/shopping-list/actions/workflows/php.yml)
+[![Node.js Encore](https://github.com/famoser/shopping-list/actions/workflows/node.js.yml/badge.svg)](https://github.com/famoser/shopping-list/actions/workflows/node.js.yml)
+[![Scrutinizer](https://scrutinizer-ci.com/g/famoser/shopping-list/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/famoser/shopping-list)
 
 ## About
 Shopping list helps flat mates to coordinate grocery shopping. And helped me to quickly pick up react.
