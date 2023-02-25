@@ -19,7 +19,9 @@ use Symfony\Component\Validator\Constraints as Assert;
 
 /**
  * @ORM\Entity()
+ *
  * @ORM\HasLifecycleCallbacks
+ *
  * @ApiResource(
  *     normalizationContext={"groups"={"product"}},
  *     denormalizationContext={"groups"={"product"}}),
@@ -44,7 +46,9 @@ class Product extends BaseEntity
      * @var string
      *
      * @Assert\NotBlank
+     *
      * @Groups("product")
+     *
      * @ORM\Column(type="text")
      */
     private $name;
@@ -53,7 +57,9 @@ class Product extends BaseEntity
      * @var int
      *
      * @Assert\Range(min=1, max=9)
+     *
      * @Groups("product")
+     *
      * @ORM\Column(type="integer")
      */
     private $category;
@@ -62,7 +68,9 @@ class Product extends BaseEntity
      * @var bool
      *
      * @Assert\NotNull()
+     *
      * @Groups("product")
+     *
      * @ORM\Column(type="boolean")
      */
     private $active;

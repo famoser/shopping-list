@@ -41,8 +41,8 @@ jobs:
 
     - name: Lint
       run: |
-        ./vendor/bin/php-cs-fixer fix --diff --dry-run -v
-        php bin/console lint:yaml config
+        export PHP_CS_FIXER_IGNORE_ENV=1 && ./vendor/bin/php-cs-fixer fix --diff --dry-run -v
+        php bin/console lint:yaml config --parse-tags
         php bin/console lint:twig templates
 
     - name: Test
