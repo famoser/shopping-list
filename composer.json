@@ -4,7 +4,7 @@
     "name": "famoser/shopping-list",
     "description": "shopping list",
     "require": {
-        "php": "^8.1",
+        "php": "^8.2",
         "api-platform/core": "^2.6",
         "doctrine/annotations": "^1.0",
         "doctrine/doctrine-bundle": "^2.5",
@@ -31,7 +31,7 @@
         "symfony/translation": "^5.1",
         "symfony/twig-bundle": "^5.1",
         "symfony/validator": "^5.1",
-        "symfony/webpack-encore-bundle": "v1.15.1",
+        "symfony/webpack-encore-bundle": "^1",
         "symfony/yaml": "^5.1",
         "twig/extra-bundle": "^2.12|^3.0",
         "twig/twig": "^2.12|^3.0"
@@ -53,7 +53,7 @@
         },
         "sort-packages": true,
         "platform": {
-            "php": "8.1"
+            "php": "8.2"
         },
         "allow-plugins": {
             "symfony/flex": true

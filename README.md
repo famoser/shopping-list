@@ -6,6 +6,7 @@
 [![Scrutinizer](https://scrutinizer-ci.com/g/famoser/shopping-list/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/famoser/shopping-list)
 
 ## About
+
 Shopping list helps flat mates to coordinate grocery shopping. And helped me to quickly pick up react.
 
 <p align="center">
