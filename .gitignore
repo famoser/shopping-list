@@ -1,6 +1,7 @@
 .idea
 .build
 .config
+.npmrc
 
 ###> symfony/framework-bundle ###
 /.env.local
